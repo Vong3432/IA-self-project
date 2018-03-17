@@ -79,13 +79,13 @@ body
 	padding: 15px;
 	font-size: 1.2vw;
 	font-weight: bold;
+	background-color:white;
 }
 
 .free-play a
 {
 	text-decoration: none;
 	color: black;
-	background-color:white;
 }
 
 .free-play:hover
