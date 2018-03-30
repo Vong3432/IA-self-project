@@ -1,0 +1,95 @@
+body
+{
+	background-color: black;
+}
+.topnav
+{
+	background-color: black;
+	margin: -8px;
+	overflow: hidden;
+}
+
+.topnav a
+{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 20px;
+	display: block;
+	float: left;
+}
+
+.topnav a:hover
+{
+	background-color: white;
+	color: black;
+	transition-duration: 0.5s;
+	font-size: 20px;
+}
+
+.topnav .icon
+{
+	display: none;
+}
+
+.row
+{
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+.row:hover
+{
+	-ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+#highlight
+{
+	font-weight: bold;
+}
+
+.card-content
+{
+	font-family: 'Mina', sans-serif;
+}
+
+@media screen and (max-width: 600px)
+{
+	.topnav a:not(:first-child)
+	{
+		display: none;
+	}
+	.topnav a.icon
+	{
+		display: block;
+		float: right;
+	}
+	.row
+	{
+		margin: 0;
+		margin-top: 10%;
+	}
+	.row:hover
+	{
+		-ms-transform: scale(1);
+    	-webkit-transform: scale(1); 
+    	transform: scale(1);
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.topnav.responsive
+	{
+		position: relative;
+	}
+	.topnav.responsive a
+	{
+		display: block;
+		float: none;
+		text-align: left;
+		transition-duration: 0.5s;
+	}
+}
